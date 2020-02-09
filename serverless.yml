@@ -1,0 +1,13 @@
+service: fairy-lights
+
+frameworkVersion: ">=1.4.0 <2.0.0"
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  handler:
+    handler: lambda/index.handler
+    events:
+        - alexaSmartHome: amzn1.ask.skill.60e2b64d-fe18-4d7d-8eb7-f9757b82f1fb

@@ -1,0 +1,22 @@
+{
+  "name": "particle-alexa-smarthome-dimmer-skill",
+  "description": "Alexa Smart Home skill for controlling a dimmable light using the Particle cloud",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/Takaitra/particle-alexa-smarthome-dimmer-skill"
+  },
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "ask-sdk-core": "^2.7.0",
+    "ask-sdk-model": "^1.25.1",
+    "bespoken-tools": "^2.4.34",
+    "particle-api-js": "^8.2.0",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  }
+}
